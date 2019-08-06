@@ -106,6 +106,8 @@ Selective administrators are exempted from these policies, across all group work
     
 - Directory writers
 
+#Note 
+Disabaling the group restriction will not disbale that a group owner can teamify an existing office 365 group. 
 ## Step 1: Install the preview version of the Azure Active Directory PowerShell for Graph
 
 These procedures require the the preview version of the Azure Active Directory PowerShell for Graph. The GA version will not work.
@@ -184,7 +186,8 @@ In the output, check the values for `CustomBlockedWordsList`, `EnableMSStandardB
     
  **Set the naming policy and custom blocked words**
   
-Copy the script below into a text editor, such as Notepad, or the [Windows PowerShell ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
+Copy the script below into a text editor, such as 
+pad, or the [Windows PowerShell ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise).
 
 Replace *\<WordList\>* with the list of words that you want to block. For example:
 
