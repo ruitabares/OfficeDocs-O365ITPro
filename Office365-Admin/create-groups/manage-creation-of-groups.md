@@ -64,6 +64,11 @@ The steps in this article won't prevent members of certain roles from creating G
     
 If you're a member of one of these roles, you can create Office 365 Groups for restricted users, and then assign the user as the owner of the group.
 
+## NOTE
+Restricting the group creation wont restrict the ability of a group owner to create a teams from the group that he owns
+
+
+
 ## Licensing requirements
 
 To manage who creates Groups, the following people need Azure AD Premium licenses or Azure AD Basic EDU licenses assigned to them:
